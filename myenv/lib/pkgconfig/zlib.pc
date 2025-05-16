@@ -1,0 +1,13 @@
+prefix=/Users/ummeaiman/Langchain/myenv
+exec_prefix=/Users/ummeaiman/Langchain/myenv
+libdir=/Users/ummeaiman/Langchain/myenv/lib
+sharedlibdir=/Users/ummeaiman/Langchain/myenv/lib
+includedir=/Users/ummeaiman/Langchain/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
